@@ -3,4 +3,4 @@ a, b, c = map(int, input().split())
 print((a + b)%c)
 print((a % c)%c + (b % c) % c)
 print((a * c)% c)
-print((a % c) * (b % c) % c)5 8 4
+print((a % c) * (b % c) % c)
