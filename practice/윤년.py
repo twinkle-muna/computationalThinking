@@ -1,0 +1,5 @@
+a = int(input("연도입력 : "))
+if not (a%400) : print("윤년")
+elif not(a%100) : print("윤년아님")
+elif not (a%4) : print("윤년")
+else : print("윤년아님")
